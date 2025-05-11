@@ -1,0 +1,146 @@
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    color: blue;
+    background-color: #0e0c2c ;
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: #1a1a40;
+    padding:  1rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap:wrap ;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+
+}
+.logo img{
+    height:4rem;
+    float: left;
+    margin-right:1rem;
+    
+}
+header h1 {
+    margin: 0;
+    color:#00ffc3;
+    
+}
+
+
+nav a{ 
+    color:#00ffc3;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+nav a:hover{
+    text-decoration: u,nderline;
+    
+}
+.store-subnav a{
+    margin: 0 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.store-subnav a:hover{
+    text-decoration: underline;
+}
+.store-section{
+    padding: 1rem;
+    display: flex;
+}
+.hero{
+    height: 15rem;
+    display:flex;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+.game-covers{
+    background-color: #1f1e3c;
+    border: radius 10px; 
+    padding: 2rem;
+    text-align: center;
+    transition: tranform 0.3s;
+}
+.game-covers img{
+    width:40%;
+    border-radius: 10px;
+
+
+}
+.support-section h2{
+    text-align: center;
+}
+.support-section label{
+    font-size: 1rem;
+}
+.support-section input,
+.support-section textarea{
+    padding: 1rem;
+    border-radius: 5px;
+    display: block;
+    
+}
+.support-section textarea{
+    width: 80%;
+}
+.support-section button{
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.slides{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
+}
+.slides img {
+    width: 100%;
+    border-radius: 10px;
+}
+.carousel{
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+
+
+footer{
+    background-color:#333;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+p{
+   font-size: 1.1em;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border: 5px solid ;
+    border-radius: 10px;
+}
+
+    

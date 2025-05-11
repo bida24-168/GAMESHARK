@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta chartset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HOME</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+    <img src="logo.png" alt="LOGO" >
+    <h1>GAMESHARK
+    </h1>
+   
+</div>
+
+  
+  <nav>
+    
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact
+        <a href="store.html">Store</a>
+        <a href="support.html">Support</a>
+    </a>
+
+    </nav>
+</header>
+<div class="store-subnav">
+    <a href="new releases.html">New Releases</a>
+    <a href="limited offers.html">Limited Offers</a>
+    <a href="accessories.html">Accessories</a>
+</div>
+<section class="hero">
+    <h2>Unleash Your Inner Gamer</h2>
+</section>
+<section class="carousel">
+    <div class="slides" id="carouselSlides">
+        <img src="IMAGES/FC25.jpg" alt="EA Sports FC25">
+        <img src="IMAGES/Elden Ring.jpg" alt="Elden Ring">
+        <img src="IMAGES/GTA 6.jpg" alt="GTA 6">
+        <img src="IMAGES/call of duty.jpg" alt="Assassins Creed">
+        <img src="IMAGES/GOW Ragnarok.jpg" alt="God of War Ragnarok">
+        <img src="IMAGES/2K25.jpg" alt="NBA 2K25">
+        <img src="IMAGES/madden.jpg" alt="Madden 25">
+        <img src="IMAGES/cold war.jpg" alt="Cold WAR">
+        <img src="IMAGES/evil.jpg" alt="Resident Evil 9">
+        <img src="IMAGES/GTA 5.jpg" alt="GTA V">
+
+    </div>
+</section>
+
+<section class="features">
+    <div class="announcements">
+        <h3>New releases</h3>
+        <p>Stay up-to-date with the latest games </p>
+    </div>
+    <div class="announcements">
+        <h3>Limited Offers</h3>
+        <p>Check out the latest exclusive deals on offer. OUT NOW! for a limited period only on some of the most popular games out. </p>
+
+    </div>
+    <div class="announcements">
+        <h3>Accessories</h3>
+        <p>Elevate your gaming experience with the best devices on display.</p>
+    </div>
+
+    
+</section>
+
+<footer>
+    <p>&copy; 2025 GAMESHARK.</p>
+</footer>
+<script>
+ window.onload=function()  {    
+        var index=0;
+        var slides= document.getElementById('carouselSlides')
+        var slideCount= slides.children.length;
+    
+        setInterval(function() {
+            index=(index+1) % slideCount;
+            slides.style.transform="translateX(-" + (index*100) +"%)";
+            }, 2000);
+        };
+</script>
+</body>
+</html>
